@@ -11,17 +11,17 @@ class ShhApiTest extends TestCase
 {
     /**
      * shh
-     * 
+     *
      * @var Web3\Shh
      */
     protected $shh;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
@@ -30,9 +30,9 @@ class ShhApiTest extends TestCase
 
     /**
      * testVersion
-     * 
+     *
      * @return void
-     */    
+     */
     public function testVersion()
     {
         $shh = $this->shh;
@@ -48,9 +48,9 @@ class ShhApiTest extends TestCase
     /**
      * testNewIdentity
      * Comment because ganache-cli only implement shh_version.
-     * 
+     *
      * @return void
-     */    
+     */
     // public function testNewIdentity()
     // {
     //     $shh = $this->shh;
@@ -66,9 +66,9 @@ class ShhApiTest extends TestCase
     /**
      * testHasIdentity
      * Comment because ganache-cli only implement shh_version.
-     * 
+     *
      * @return void
-     */    
+     */
     // public function testHasIdentity()
     // {
     //     $shh = $this->shh;
@@ -100,9 +100,9 @@ class ShhApiTest extends TestCase
 
     /**
      * testNewGroup
-     * 
+     *
      * @return void
-     */    
+     */
     // public function testNewGroup()
     // {
     //     $shh = $this->shh;
@@ -117,9 +117,9 @@ class ShhApiTest extends TestCase
 
     /**
      * testAddToGroup
-     * 
+     *
      * @return void
-     */    
+     */
     // public function testAddToGroup()
     // {
     //     $shh = $this->shh;
@@ -145,9 +145,9 @@ class ShhApiTest extends TestCase
     /**
      * testPost
      * Comment because ganache-cli only implement shh_version.
-     * 
+     *
      * @return void
-     */    
+     */
     // public function testPost()
     // {
     //     $shh = $this->shh;
@@ -204,9 +204,9 @@ class ShhApiTest extends TestCase
     /**
      * testNewFilter
      * Comment because ganache-cli only implement shh_version.
-     * 
+     *
      * @return void
-     */    
+     */
     // public function testNewFilter()
     // {
     //     $shh = $this->shh;
@@ -256,9 +256,9 @@ class ShhApiTest extends TestCase
     /**
      * testUninstallFilter
      * Comment because ganache-cli only implement shh_version.
-     * 
+     *
      * @return void
-     */    
+     */
     // public function testUninstallFilter()
     // {
     //     $shh = $this->shh;
@@ -298,9 +298,9 @@ class ShhApiTest extends TestCase
     /**
      * testGetFilterChanges
      * Comment because ganache-cli only implement shh_version.
-     * 
+     *
      * @return void
-     */    
+     */
     // public function testGetFilterChanges()
     // {
     //     $shh = $this->shh;
@@ -372,9 +372,9 @@ class ShhApiTest extends TestCase
     /**
      * testGetMessages
      * Comment because ganache-cli only implement shh_version.
-     * 
+     *
      * @return void
-     */    
+     */
     // public function testGetMessages()
     // {
     //     $shh = $this->shh;
@@ -449,7 +449,7 @@ class ShhApiTest extends TestCase
      * testWrongParam
      * We transform data and throw invalid argument exception
      * instead of runtime exception.
-     * 
+     *
      * @return void
      */
     // public function testWrongParam()
@@ -467,7 +467,7 @@ class ShhApiTest extends TestCase
     // }
     /**
      * testUnallowedMethod
-     * 
+     *
      * @return void
      */
     public function testUnallowedMethod()
@@ -486,7 +486,7 @@ class ShhApiTest extends TestCase
 
     /**
      * testWrongCallback
-     * 
+     *
      * @return void
      */
     public function testWrongCallback()

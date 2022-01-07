@@ -9,17 +9,17 @@ class TransactionValidatorTest extends TestCase
 {
     /**
      * validator
-     * 
+     *
      * @var \Web3\Validators\TransactionValidator
      */
     protected $validator;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->validator = new TransactionValidator;
@@ -27,7 +27,7 @@ class TransactionValidatorTest extends TestCase
 
     /**
      * testValidate
-     * 
+     *
      * @return void
      */
     public function testValidate()

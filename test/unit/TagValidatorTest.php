@@ -9,17 +9,17 @@ class TagValidatorTest extends TestCase
 {
     /**
      * validator
-     * 
+     *
      * @var \Web3\Validators\TagValidator
      */
     protected $validator;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->validator = new TagValidator;
@@ -27,7 +27,7 @@ class TagValidatorTest extends TestCase
 
     /**
      * testValidate
-     * 
+     *
      * @return void
      */
     public function testValidate()

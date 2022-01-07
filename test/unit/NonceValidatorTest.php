@@ -9,17 +9,17 @@ class NonceValidatorTest extends TestCase
 {
     /**
      * validator
-     * 
+     *
      * @var \Web3\Validators\NonceValidator
      */
     protected $validator;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->validator = new NonceValidator;
@@ -27,7 +27,7 @@ class NonceValidatorTest extends TestCase
 
     /**
      * testValidate
-     * 
+     *
      * @return void
      */
     public function testValidate()

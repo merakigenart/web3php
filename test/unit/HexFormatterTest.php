@@ -9,17 +9,17 @@ class HexFormatterTest extends TestCase
 {
     /**
      * formatter
-     * 
+     *
      * @var \Web3\Formatters\HexFormatter
      */
     protected $formatter;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->formatter = new HexFormatter;
@@ -27,7 +27,7 @@ class HexFormatterTest extends TestCase
 
     /**
      * testFormat
-     * 
+     *
      * @return void
      */
     public function testFormat()

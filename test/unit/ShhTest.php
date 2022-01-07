@@ -13,17 +13,17 @@ class ShhTest extends TestCase
 {
     /**
      * shh
-     * 
+     *
      * @var Web3\Shh
      */
     protected $shh;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
@@ -32,7 +32,7 @@ class ShhTest extends TestCase
 
     /**
      * testInstance
-     * 
+     *
      * @return void
      */
     public function testInstance()
@@ -45,7 +45,7 @@ class ShhTest extends TestCase
 
     /**
      * testSetProvider
-     * 
+     *
      * @return void
      */
     public function testSetProvider()
@@ -63,7 +63,7 @@ class ShhTest extends TestCase
 
     /**
      * testCallThrowRuntimeException
-     * 
+     *
      * @return void
      */
     public function testCallThrowRuntimeException()

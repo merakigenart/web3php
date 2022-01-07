@@ -10,17 +10,17 @@ class EthBatchTest extends TestCase
 {
     /**
      * eth
-     * 
+     *
      * @var \Web3\Eth
      */
     protected $eth;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
@@ -29,7 +29,7 @@ class EthBatchTest extends TestCase
 
     /**
      * testBatch
-     * 
+     *
      * @return void
      */
     public function testBatch()

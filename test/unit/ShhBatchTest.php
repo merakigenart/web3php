@@ -9,17 +9,17 @@ class ShhBatchTest extends TestCase
 {
     /**
      * shh
-     * 
+     *
      * @var Web3\Shh
      */
     protected $shh;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
@@ -28,7 +28,7 @@ class ShhBatchTest extends TestCase
 
     /**
      * testBatch
-     * 
+     *
      * @return void
      */
     public function testBatch()
@@ -50,7 +50,7 @@ class ShhBatchTest extends TestCase
 
     /**
      * testWrongParam
-     * 
+     *
      * @return void
      */
     // public function testWrongParam()

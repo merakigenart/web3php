@@ -13,17 +13,17 @@ class EthTest extends TestCase
 {
     /**
      * eth
-     * 
+     *
      * @var \Web3\Eth
      */
     protected $eth;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
@@ -32,7 +32,7 @@ class EthTest extends TestCase
 
     /**
      * testInstance
-     * 
+     *
      * @return void
      */
     public function testInstance()
@@ -45,7 +45,7 @@ class EthTest extends TestCase
 
     /**
      * testSetProvider
-     * 
+     *
      * @return void
      */
     public function testSetProvider()
@@ -63,7 +63,7 @@ class EthTest extends TestCase
 
     /**
      * testCallThrowRuntimeException
-     * 
+     *
      * @return void
      */
     public function testCallThrowRuntimeException()

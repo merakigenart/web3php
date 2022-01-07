@@ -9,17 +9,17 @@ class PostValidatorTest extends TestCase
 {
     /**
      * validator
-     * 
+     *
      * @var \Web3\Validators\PostValidator
      */
     protected $validator;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->validator = new PostValidator;
@@ -27,7 +27,7 @@ class PostValidatorTest extends TestCase
 
     /**
      * testValidate
-     * 
+     *
      * @return void
      */
     public function testValidate()

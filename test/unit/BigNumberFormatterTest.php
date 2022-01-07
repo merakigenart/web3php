@@ -10,17 +10,17 @@ class BigNumberFormatterTest extends TestCase
 {
     /**
      * formatter
-     * 
+     *
      * @var \Web3\Formatters\BigNumberFormatter
      */
     protected $formatter;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->formatter = new BigNumberFormatter;
@@ -28,7 +28,7 @@ class BigNumberFormatterTest extends TestCase
 
     /**
      * testFormat
-     * 
+     *
      * @return void
      */
     public function testFormat()

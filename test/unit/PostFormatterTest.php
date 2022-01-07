@@ -9,17 +9,17 @@ class PostFormatterTest extends TestCase
 {
     /**
      * formatter
-     * 
+     *
      * @var \Web3\Formatters\PostFormatter
      */
     protected $formatter;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->formatter = new PostFormatter;
@@ -27,7 +27,7 @@ class PostFormatterTest extends TestCase
 
     /**
      * testFormat
-     * 
+     *
      * @return void
      */
     public function testFormat()

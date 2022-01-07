@@ -9,17 +9,17 @@ class PersonalBatchTest extends TestCase
 {
     /**
      * personal
-     * 
+     *
      * @var Web3\Personal
      */
     protected $personal;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
@@ -28,7 +28,7 @@ class PersonalBatchTest extends TestCase
 
     /**
      * testBatch
-     * 
+     *
      * @return void
      */
     public function testBatch()
@@ -50,7 +50,7 @@ class PersonalBatchTest extends TestCase
 
     /**
      * testWrongParam
-     * 
+     *
      * @return void
      */
     public function testWrongParam()

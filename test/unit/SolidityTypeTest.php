@@ -10,17 +10,17 @@ class SolidityTypeTest extends TestCase
 {
     /**
      * type
-     * 
+     *
      * @var \Web3\Contracts\SolidityType
      */
     protected $type;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->type = new SolidityType();
@@ -28,7 +28,7 @@ class SolidityTypeTest extends TestCase
 
     /**
      * testNestedTypes
-     * 
+     *
      * @return void
      */
     public function testNestedTypes()
@@ -47,7 +47,7 @@ class SolidityTypeTest extends TestCase
 
     /**
      * testNestedName
-     * 
+     *
      * @return void
      */
     public function testNestedName()
@@ -65,7 +65,7 @@ class SolidityTypeTest extends TestCase
 
     /**
      * testIsDynamicArray
-     * 
+     *
      * @return void
      */
     public function testIsDynamicArray()
@@ -83,7 +83,7 @@ class SolidityTypeTest extends TestCase
 
     /**
      * testIsStaticArray
-     * 
+     *
      * @return void
      */
     public function testIsStaticArray()
@@ -101,7 +101,7 @@ class SolidityTypeTest extends TestCase
 
     /**
      * testStaticArrayLength
-     * 
+     *
      * @return void
      */
     public function testStaticArrayLength()
@@ -120,7 +120,7 @@ class SolidityTypeTest extends TestCase
 
     /**
      * testEncode
-     * 
+     *
      * @return void
      */
     // public function testEncode()
@@ -131,7 +131,7 @@ class SolidityTypeTest extends TestCase
 
     /**
      * testDecode
-     * 
+     *
      * @return void
      */
     // public function testDecode()

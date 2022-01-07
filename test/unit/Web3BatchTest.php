@@ -11,31 +11,31 @@ class Web3BatchTest extends TestCase
      * testHex
      * 'hello world'
      * you can check by call pack('H*', $hex)
-     * 
+     *
      * @var string
      */
     protected $testHex = '0x68656c6c6f20776f726c64';
 
     /**
      * testHash
-     * 
+     *
      * @var string
      */
     protected $testHash = '0x47173285a8d7341e5e972fc677286384f802f8ef42a5ec5f03bbfa254cb01fad';
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
     }
 
     /**
      * testBatch
-     * 
+     *
      * @return void
      */
     public function testBatch()
@@ -57,7 +57,7 @@ class Web3BatchTest extends TestCase
 
     /**
      * testWrongParam
-     * 
+     *
      * @return void
      */
     public function testWrongParam()

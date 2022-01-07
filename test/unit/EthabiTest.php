@@ -18,7 +18,7 @@ class EthabiTest extends TestCase
 {
     /**
      * abi
-     * 
+     *
      * @var \Web3\Contracts\Ethabi
      */
     protected $abi;
@@ -26,7 +26,7 @@ class EthabiTest extends TestCase
     /**
      * testJsonMethodString
      * from GameToken approve function
-     * 
+     *
      * @var string
      */
     protected $testJsonMethodString = '{
@@ -61,7 +61,7 @@ class EthabiTest extends TestCase
      * from web3 abi.encodeParameter.js test
      * and web3 eth.abi.encodeParameters test
      * and web3 eth.abi.encodeParameter test
-     * 
+     *
      * @param array
      */
     protected $encodingTests = [
@@ -115,7 +115,7 @@ class EthabiTest extends TestCase
      * from web3 abi.decodeParameter.js test
      * and web3 eth.abi.decodeParameters test
      * and web3 eth.abi.decodeParameter test
-     * 
+     *
      * @param array
      */
     protected $decodingTests = [
@@ -160,10 +160,10 @@ class EthabiTest extends TestCase
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         // Error: Using $this when not in object context
@@ -189,7 +189,7 @@ class EthabiTest extends TestCase
 
     /**
      * testEncodeFunctionSignature
-     * 
+     *
      * @return void
      */
     public function testEncodeFunctionSignature()
@@ -216,7 +216,7 @@ class EthabiTest extends TestCase
 
     /**
      * testEncodeEventSignature
-     * 
+     *
      * @return void
      */
     public function testEncodeEventSignature()
@@ -235,7 +235,7 @@ class EthabiTest extends TestCase
 
     /**
      * testEncodeParameter
-     * 
+     *
      * @return void
      */
     public function testEncodeParameter()
@@ -247,7 +247,7 @@ class EthabiTest extends TestCase
 
     /**
      * testEncodeParameters
-     * 
+     *
      * @return void
      */
     public function testEncodeParameters()
@@ -261,7 +261,7 @@ class EthabiTest extends TestCase
 
     /**
      * testDecodeParameter
-     * 
+     *
      * @return void
      */
     public function testDecodeParameter()
@@ -274,7 +274,7 @@ class EthabiTest extends TestCase
 
     /**
      * testDecodeParameters
-     * 
+     *
      * @return void
      */
     public function testDecodeParameters()
@@ -300,7 +300,7 @@ class EthabiTest extends TestCase
      * testIssue71
      * test 33 bytes and 128 bytes string, see: https://github.com/sc0Vu/web3.php/issues/71
      * string generated from: https://www.lipsum.com/
-     * 
+     *
      * @return void
      */
     public function testIssue71()

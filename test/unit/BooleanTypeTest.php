@@ -10,7 +10,7 @@ class BooleanTypeTest extends TestCase
 {
     /**
      * testTypes
-     * 
+     *
      * @var array
      */
     protected $testTypes = [
@@ -37,17 +37,17 @@ class BooleanTypeTest extends TestCase
 
     /**
      * solidityType
-     * 
+     *
      * @var \Web3\Contracts\SolidityType
      */
     protected $solidityType;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->solidityType = new Boolean;
@@ -55,7 +55,7 @@ class BooleanTypeTest extends TestCase
 
     /**
      * testIsType
-     * 
+     *
      * @return void
      */
     public function testIsType()

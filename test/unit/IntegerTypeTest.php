@@ -10,7 +10,7 @@ class IntegerTypeTest extends TestCase
 {
     /**
      * testTypes
-     * 
+     *
      * @var array
      */
     protected $testTypes = [
@@ -43,17 +43,17 @@ class IntegerTypeTest extends TestCase
 
     /**
      * solidityType
-     * 
+     *
      * @var \Web3\Contracts\SolidityType
      */
     protected $solidityType;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->solidityType = new Integer;
@@ -61,7 +61,7 @@ class IntegerTypeTest extends TestCase
 
     /**
      * testIsType
-     * 
+     *
      * @return void
      */
     public function testIsType()

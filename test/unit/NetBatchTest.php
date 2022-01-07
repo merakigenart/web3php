@@ -10,17 +10,17 @@ class NetBatchTest extends TestCase
 {
     /**
      * net
-     * 
+     *
      * @var Web3\Net
      */
     protected $net;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
@@ -29,7 +29,7 @@ class NetBatchTest extends TestCase
 
     /**
      * testBatch
-     * 
+     *
      * @return void
      */
     public function testBatch()

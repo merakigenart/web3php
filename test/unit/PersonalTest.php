@@ -13,17 +13,17 @@ class PersonalTest extends TestCase
 {
     /**
      * personal
-     * 
+     *
      * @var Web3\Personal
      */
     protected $personal;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
@@ -32,7 +32,7 @@ class PersonalTest extends TestCase
 
     /**
      * testInstance
-     * 
+     *
      * @return void
      */
     public function testInstance()
@@ -45,7 +45,7 @@ class PersonalTest extends TestCase
 
     /**
      * testSetProvider
-     * 
+     *
      * @return void
      */
     public function testSetProvider()
@@ -63,7 +63,7 @@ class PersonalTest extends TestCase
 
     /**
      * testCallThrowRuntimeException
-     * 
+     *
      * @return void
      */
     public function testCallThrowRuntimeException()

@@ -20,31 +20,31 @@ class Web3Test extends TestCase
      * testHex
      * 'hello world'
      * you can check by call pack('H*', $hex)
-     * 
+     *
      * @var string
      */
     protected $testHex = '0x68656c6c6f20776f726c64';
 
     /**
      * testHash
-     * 
+     *
      * @var string
      */
     protected $testHash = '0x47173285a8d7341e5e972fc677286384f802f8ef42a5ec5f03bbfa254cb01fad';
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
     }
 
     /**
      * testInstance
-     * 
+     *
      * @return void
      */
     public function testInstance()
@@ -63,7 +63,7 @@ class Web3Test extends TestCase
 
     /**
      * testSetProvider
-     * 
+     *
      * @return void
      */
     public function testSetProvider()
@@ -80,7 +80,7 @@ class Web3Test extends TestCase
 
     /**
      * testCallThrowRuntimeException
-     * 
+     *
      * @return void
      */
     public function testCallThrowRuntimeException()

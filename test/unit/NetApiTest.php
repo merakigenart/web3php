@@ -11,17 +11,17 @@ class NetApiTest extends TestCase
 {
     /**
      * net
-     * 
+     *
      * @var Web3\Net
      */
     protected $net;
 
     /**
      * setUp
-     * 
+     *
      * @return void
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
@@ -30,9 +30,9 @@ class NetApiTest extends TestCase
 
     /**
      * testVersion
-     * 
+     *
      * @return void
-     */    
+     */
     public function testVersion()
     {
         $net = $this->net;
@@ -47,9 +47,9 @@ class NetApiTest extends TestCase
 
     /**
      * testPeerCount
-     * 
+     *
      * @return void
-     */    
+     */
     public function testPeerCount()
     {
         $net = $this->net;
@@ -64,9 +64,9 @@ class NetApiTest extends TestCase
 
     /**
      * testListening
-     * 
+     *
      * @return void
-     */    
+     */
     public function testListening()
     {
         $net = $this->net;
@@ -81,7 +81,7 @@ class NetApiTest extends TestCase
 
     /**
      * testUnallowedMethod
-     * 
+     *
      * @return void
      */
     public function testUnallowedMethod()
@@ -100,7 +100,7 @@ class NetApiTest extends TestCase
 
     /**
      * testWrongCallback
-     * 
+     *
      * @return void
      */
     public function testWrongCallback()
